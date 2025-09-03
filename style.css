@@ -144,12 +144,12 @@ header nav ul li a {
     /* align-items: center; */
     width: 100%;
     height: auto;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     margin-top: 6px;
     margin-bottom: 6px;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .skill-category h3{
@@ -160,13 +160,16 @@ header nav ul li a {
 }
 
 .skills-list {
-    padding: 12px;
+    padding: 6px;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 12rem;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+    gap: 13px;
+    /* margin-left: 6rem;
+    margin-right: 6rem; */
+    margin-top: 6px;
+    margin-bottom: 6px;
     color: #fff;
 }
 
